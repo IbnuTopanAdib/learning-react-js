@@ -1,14 +1,17 @@
-function Expensive(){
-    return(
-        <div>
-            
-            <h1>Hallo Kucing</h1>
-            <div>
-                <p>kucing adalah makhluk beraki empat dan merupakan hewan vertebrata</p>
-                <span>kucing juga dikenal sebagai dewa di mesir kuno</span>
-            </div>
-        </div>
-    );
+import "./Expensive.css";
+import ExpensiveDate from "./ExpensiveDate";
+function Expensive(props) {
+
+    
+  return (
+    <div className="expense-item">
+      <ExpensiveDate date = {props.date} />
+      <div className="expense-item__description">
+        <h2>{props.title}</h2>
+        <div className="expense-item__price">{props.amount}</div>
+      </div>
+    </div>
+  );
 }
 
 export default Expensive;
