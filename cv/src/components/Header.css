@@ -1,0 +1,39 @@
+header {
+    text-align: center;
+    background-color: #eeeeee;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  } 
+
+  .summary {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .summary img {
+    float: right;
+  }
+  .position {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  h2 {
+    color: #2F5A78;
+    font-size: 20px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #2F5A78;
+  } 
+  .summary img {
+    float: right;
+    transition: transform 1s ease; 
+  }
+  .summary img:hover {
+    transform: rotate(360deg) scale(1.3);
+  }
+  h1 {
+    font-size: 28px;
+    text-transform: uppercase;
+  } 
